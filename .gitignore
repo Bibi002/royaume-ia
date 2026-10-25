@@ -1,0 +1,37 @@
+# Secrets & environnement — ne JAMAIS committer
+.env
+.env.*
+*.key
+*.pem
+*.crt
+secrets/
+credentials*
+*token*
+*password*
+
+# Données (jamais de données réelles dans ce dépôt public)
+data/
+*.sqlite
+*.db
+*.vault
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Sauvegardes & archives
+*.bak
+*.tar
+*.tar.zst
+*.tgz
+*.zip
+
+# Systèmes & éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
